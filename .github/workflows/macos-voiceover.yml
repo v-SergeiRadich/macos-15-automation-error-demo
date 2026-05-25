@@ -1,10 +1,7 @@
 name: MacOS VoiceOver
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  workflow_dispatch
 
 jobs:
   start-voiceover-and-move-right:
